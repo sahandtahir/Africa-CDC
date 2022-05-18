@@ -1,0 +1,34 @@
+
+.popupCustom .leaflet-popup-content-wrapper {
+    
+    background: #000000bf;
+    color: #782C2D;
+    font-size: larger;
+    margin: 0px;
+    text-align: center;
+    z-index:0;
+    pointer-events: none;
+
+}
+
+
+.leaflet-popup-pane{
+    z-index: 500;
+    pointer-events: none;
+}
+
+.popupCustom .leaflet-popup-content{
+    margin: 4px;
+    pointer-events: none;
+}
+
+
+.popupCustom .leaflet-popup-tip{
+    display: none;
+    pointer-events: none;
+}
+
+.popupCustom .leaflet-popup-close-button{
+    display: none;
+    pointer-events: none;
+}
